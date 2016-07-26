@@ -1,0 +1,281 @@
+PS Microsoft.PowerShell.Core\FileSystem::\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules> Get-TraceSource | fl
+Name
+----
+CmdletProviderClasses
+CmdletProviderContext
+CommandDiscovery
+CommandSearch
+ConsoleControl
+ConsoleHost
+ConsoleHostRunspaceInit
+ConsoleHostUserInterface
+ConsoleLineOutput
+DisplayDataQuery
+ETS
+FileSystemProvider
+FormatFileLoading
+FormatInfoDataClassFactory
+FormatViewBinding
+InternalDeserializer
+LocationGlobber
+MemberResolution
+Modules
+MshSnapinLoadUnload
+ParameterBinderBase
+ParameterBinderController
+ParameterBinding
+PathResolution
+PSDriveInfo
+PSSnapInLoadUnload
+RegistryProvider
+RunspaceInit
+SessionState
+SessionStateProvider
+TypeConversion
+TypeMatch
+
+Name
+----
+CmdletProviderClasses,CmdletProviderContext,CommandDiscovery,CommandSearch,ConsoleControl,ConsoleHost,ConsoleHostRunspaceInit,ConsoleHostUserInterface,ConsoleLineOutput,DisplayDataQuery,ETS,FileSystemProvider,FormatFileLoading,FormatInfoDataClassFactory,FormatViewBinding,InternalDeserializer,LocationGlobber,MemberResolution,Modules,MshSnapinLoadUnload,ParameterBinderBase,ParameterBinderController,ParameterBinding,PathResolution,PSDriveInfo,PSSnapInLoadUnload,RegistryProvider,RunspaceInit,SessionState,SessionStateProvider,TypeConversion,TypeMatch
+
+
+
+Name        : CmdletProviderClasses
+Description : The namespace provider base classes tracer
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : CmdletProviderContext
+Description : The context under which a core command is being run.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : CommandDiscovery
+Description : Traces the discovery of cmdlets, scripts, functions, applications, etc.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : CommandHelpProvider
+Description : CommandHelpProvider
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : CommandSearch
+Description : CommandSearch
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ConsoleControl
+Description : Console control methods
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ConsoleHost
+Description : ConsoleHost subclass of S.M.A.PSHost
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ConsoleHostRunspaceInit
+Description : Initialization code for ConsoleHost's Runspace
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ConsoleHostUserInterface
+Description : Console host's subclass of S.M.A.Host.Console
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ConsoleLineOutput
+Description : ConsoleLineOutput
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : DisplayDataQuery
+Description : DisplayDataQuery
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ETS
+Description : Extended Type System
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : FileSystemProvider
+Description : The namespace navigation provider for the file system
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : FormatFileLoading
+Description : Loading format files
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : FormatInfoDataClassFactory
+Description : FormatInfoDataClassFactory
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : FormatViewBinding
+Description : Format view binding
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : GetHelpCommand
+Description : GetHelpCommand
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : InternalDeserializer
+Description : InternalDeserializer class
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : LocationGlobber
+Description : The location globber converts PowerShell paths with glob characters to zero or more paths.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : MemberResolution
+Description : Traces the resolution from member name to the member. A member can be a property, method, etc.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : Modules
+Description : Module loading and analysis
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : MshSnapinLoadUnload
+Description : Loading and unloading mshsnapins
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ParameterBinderBase
+Description : A abstract helper class for the CommandProcessor that binds parameters to the specified object.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ParameterBinderController
+Description : Controls the interaction between the command processor and the parameter binder(s).
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : ParameterBinding
+Description : Traces the process of binding the arguments to the parameters of cmdlets, scripts, and applications.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : PathResolution
+Description : Traces the path resolution algorithm.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : PSDriveInfo
+Description : The namespace navigation tracer
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : PSSnapInLoadUnload
+Description : Loading and unloading mshsnapins
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : RegistryProvider
+Description : The namespace navigation provider for the Windows Registry
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : RunspaceInit
+Description : Initialization code for Runspace
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : SessionState
+Description : SessionState Class
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : SessionStateProvider
+Description : Providers that produce a view of session state data.
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : TypeConversion
+Description : Traces the type conversion algorithm
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+Name        : TypeMatch
+Description : F&O TypeMatch
+Options     : None
+Listeners   : {Default}
+Attributes  : {}
+Switch      : System.Diagnostics.SourceSwitch
+
+
