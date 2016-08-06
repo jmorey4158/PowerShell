@@ -2,7 +2,7 @@
 $good = Get-GoodInput
 $bad =  Get-SmallBadInput
 $now = Get-Date
-$path = "\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules\TestResults\Trace-Expression_" + "_" + $now.Ticks + ".txt"
+$path = "<DELETED>\WindowsPowerShell\Modules\TestResults\Trace-Expression_" + "_" + $now.Ticks + ".txt"
 
 
 $method = "None","ProcessRecord","Method","ClassAttribute","NullAttribute","NullAttributeFirst","NullAttributeSecond","NullAttributeAfter"
