@@ -4,7 +4,7 @@
 
 function MeasureExpression ($exp)
 {
-    $path = "\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules\TraceResults\Measure-Expression_" + (Get-Date).Ticks + ".txt"
+    $path = "<DELETED>\WindowsPowerShell\Modules\TraceResults\Measure-Expression_" + (Get-Date).Ticks + ".txt"
     $intro = "MEASURE-COMMAND FOR THE FOLLOWING EXPRESSIONS: "
     $end = "COMPLETED MEASURE-COMMAND FOR THE EXPRESSIONS"
     $space = "
