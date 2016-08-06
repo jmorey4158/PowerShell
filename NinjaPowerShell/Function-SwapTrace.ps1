@@ -6,7 +6,7 @@ function SwapTrace ($exp)
     $back = [System.Console]::BackgroundColor
     $compShort1 = "CommandDiscovery","ParameterBinderBase","ParameterBinderController","ParameterBinding","TypeConversion"
     $compShort2 = "TypeConversion","ParameterBinderBase","CommandDiscovery","ParameterBinding","ParameterBinderController"
-    $path = "\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules\TraceResults\SwapTrace_" + (Get-Date).Ticks + ".txt"
+    $path = "<DELETED>\WindowsPowerShell\Modules\TraceResults\SwapTrace_" + (Get-Date).Ticks + ".txt"
     $intro = "SWAPPING TRACE-COMMAND ORDER: "
     $end = "COMPLETED SWAPPING TRACE-COMMAND"
     $space = "
