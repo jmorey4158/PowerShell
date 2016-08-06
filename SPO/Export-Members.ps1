@@ -1,1 +1,1 @@
-﻿Get-Command -Module Microsoft.Online.SharePoint.PowerShell "Get-*"| ForEach-Object {Get-Member -InputObject $._ } | Export-Csv -Path "\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules\SPO\SpoMembers.csv"
+﻿Get-Command -Module Microsoft.Online.SharePoint.PowerShell "Get-*"| ForEach-Object {Get-Member -InputObject $._ } | Export-Csv -Path "deleted\WindowsPowerShell\Modules\SPO\SpoMembers.csv"
