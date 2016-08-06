@@ -344,7 +344,7 @@ $ClassValidationAvgTimeLB
 "
 $date = Get-Date;
 
-$path = "\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules\TestDepth_" + $date.DayOfYear + "_" + $date.Hour +  "_" + $date.Minute + ".txt"
+$path = "<DELETED>\WindowsPowerShell\Modules\TestDepth_" + $date.DayOfYear + "_" + $date.Hour +  "_" + $date.Minute + ".txt"
 $lb = "
 "
 
