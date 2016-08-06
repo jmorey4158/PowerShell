@@ -1,10 +1,10 @@
 ﻿
 #Specify the absolute URL for the SharePoint Site to enqueue. 
-$webUrl = "https://testTechReady.SharePoint.com"
+$webUrl = "deleted"
 
 
 #Specify the login name for the site administrator. If you do not specify the login name, the console will prompt you for it.
-$username = "admin@testTechReady.com"
+$username = "admin@deleted"
 
 
 #Specify the password for the site administrator.  If you do not specify the login name, the console will prompt you for it.
@@ -12,7 +12,7 @@ $password
 
 
 #Specify the login name to be enqueued.  If you do not specify the site, the console will prompt you for it.
-$user = "admin@prepspo.msolctp-int.com"
+$user = "admin@deleted"
 
 
 
