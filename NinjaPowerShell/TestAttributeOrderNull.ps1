@@ -204,7 +204,7 @@ $NullAttributeAfterAvgTimeSB
 
 $date = Get-Date;
 
-$path = "\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules\TestResults\TestAttributeOrder_" + $runs + "_" + $date.DayOfYear + "_" + $date.Hour +  "_" + $date.Minute + ".txt"
+$path = "<DELETED>\WindowsPowerShell\Modules\TestResults\TestAttributeOrder_" + $runs + "_" + $date.DayOfYear + "_" + $date.Hour +  "_" + $date.Minute + ".txt"
 $lb = "
 "
 
