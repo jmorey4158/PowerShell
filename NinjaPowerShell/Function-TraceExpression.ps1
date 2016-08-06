@@ -6,7 +6,7 @@ function TraceExpression ($exp)
     $compShort2 = "CommandDiscovery","ParameterBinding"
     $compShort3 = "ParameterBinding"
 
-    $path = "\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules\TraceResults\Trace-Expression_" + (Get-Date).Ticks + ".txt"
+    $path = "<DELETED>\WindowsPowerShell\Modules\TraceResults\Trace-Expression_" + (Get-Date).Ticks + ".txt"
     $intro = "TRACE-COMMAND FOR THE FOLLOWING EXPRESSIONS: "
     $end = "COMPLETED TRACE-COMMAND FOR THE EXPRESSIONS"
     $space = "
