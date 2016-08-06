@@ -1,4 +1,4 @@
-PS Microsoft.PowerShell.Core\FileSystem::\\TK5-RED-MDS-08Z\MyDocs3\jmorey\Documents\WindowsPowerShell\Modules> Get-TraceSource | fl
+PS Microsoft.PowerShell.Core\FileSystem::<DELETED>\WindowsPowerShell\Modules> Get-TraceSource | fl
 Name
 ----
 CmdletProviderClasses
